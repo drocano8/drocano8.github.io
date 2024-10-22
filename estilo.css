@@ -1,0 +1,22 @@
+    h1{color:orange;}
+    p{ font-size: 20px;}
+
+    /* con esta linea agregamos estilo con colores al titulo*/
+    h1{ 
+        color:orange;
+        background-color: #000;"
+}
+
+#primer_parrafo{
+color: black;
+text-shadow: 3px 4px 2px orange; /*con esta linea damos sombra al texto y la propiedades son alto, ancho, desenfoque y color*/
+font-style: italic;
+font-weight: bold;
+text-transform: capitalize;/*la primera letra de todas las palabras sea mayuscula "capitalize"*/
+letter-spacing: 2px; /*ponemos un espacio entre letras*/
+word-spacing: 8px; /*ponemos un espacio entre las palabras*/
+}
+
+ol{
+list-style-image: url("logolista.png");
+}
